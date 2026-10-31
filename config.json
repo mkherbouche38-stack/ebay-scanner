@@ -1,0 +1,45 @@
+{
+  "marketplaces": ["EBAY_FR"],
+  "deliveryCountry": "FR",
+  "dailyQuota": 5000,
+  "minPauseSeconds": 3,
+  "defaultMin": 20,
+  "exclude": [
+    "coque", "etui", "housse", "case", "cover", "protection", "verre trempe",
+    "boite vide", "boite seule", "juste la boite", "empty box", "box only", "only box",
+    "factice", "dummy", "replica", "replique", "copie", "fake",
+    "bloque icloud", "icloud bloque", "icloud lock", "icloud locked", "compte icloud", "activation lock", "verrouillage activation", "blacklist", "blackliste",
+    "location", "recherche", "achete", "je rachete"
+  ],
+  "searches": [
+    { "name": "iPhone 13 Pro",     "query": "iphone 13 pro",     "must": ["iphone", "13", "pro"], "not": ["max"], "min": 60,  "max": 160, "parts": true },
+    { "name": "iPhone 13 Pro Max", "query": "iphone 13 pro max", "must": ["iphone", "13", "pro", "max"],          "min": 70,  "max": 190, "parts": true },
+    { "name": "iPhone 14 Pro",     "query": "iphone 14 pro",     "must": ["iphone", "14", "pro"], "not": ["max"], "min": 80,  "max": 220, "parts": true },
+    { "name": "iPhone 14 Pro Max", "query": "iphone 14 pro max", "must": ["iphone", "14", "pro", "max"],          "min": 90,  "max": 260, "parts": true },
+    { "name": "iPhone 15 Pro",     "query": "iphone 15 pro",     "must": ["iphone", "15", "pro"], "not": ["max"], "min": 100, "max": 300, "parts": true },
+    { "name": "iPhone 15 Pro Max", "query": "iphone 15 pro max", "must": ["iphone", "15", "pro", "max"],          "min": 120, "max": 350, "parts": true },
+    { "name": "iPhone 16 Pro",     "query": "iphone 16 pro",     "must": ["iphone", "16", "pro"], "not": ["max"], "min": 150, "max": 420, "parts": true },
+    { "name": "iPhone 16 Pro Max", "query": "iphone 16 pro max", "must": ["iphone", "16", "pro", "max"],          "min": 180, "max": 480, "parts": true },
+    { "name": "iPhone 17 Pro",     "query": "iphone 17 pro",     "must": ["iphone", "17", "pro"], "not": ["max"], "min": 250, "max": 600, "parts": true },
+    { "name": "iPhone 17 Pro Max", "query": "iphone 17 pro max", "must": ["iphone", "17", "pro", "max"],          "min": 300, "max": 700, "parts": true },
+
+    { "name": "PS5",               "query": "ps5 console",       "must": ["ps5"], "not": ["pro", "jeu", "jeux", "manette seule", "portal"], "min": 90, "max": 190 },
+    { "name": "PS5 Pro",           "query": "ps5 pro console",   "must": ["ps5", "pro"], "not": ["manette", "portal"], "min": 180, "max": 330 },
+
+    { "name": "Sennheiser HD 800 S", "query": "sennheiser hd 800 s", "must": ["sennheiser", "800"], "min": 150, "max": 550 },
+    { "name": "Sennheiser HD 660S",  "query": "sennheiser hd 660s",  "must": ["sennheiser", "660s"], "min": 80,  "max": 200 },
+    { "name": "Sennheiser Momentum 4", "query": "sennheiser momentum 4", "must": ["sennheiser", "momentum", "4"], "min": 40, "max": 110 },
+
+    { "name": "Sony FX3",          "query": "sony fx3",          "must": ["fx3"],        "not": ["cage", "batterie", "battery"], "min": 600, "max": 1800 },
+    { "name": "Sony A7S III",      "query": "sony a7s iii",      "must": ["sony", "a7s"], "not": ["cage", "batterie", "battery"], "min": 500, "max": 1300 },
+    { "name": "Panasonic GH6",     "query": "panasonic gh6",     "must": ["gh6"],        "not": ["cage", "batterie", "battery"], "min": 300, "max": 650 },
+    { "name": "Panasonic S5 II",   "query": "lumix s5 ii",       "must": ["s5"],         "not": ["cage", "batterie", "battery"], "min": 400, "max": 800 },
+
+    { "name": "RTX 4090",          "query": "rtx 4090",          "must": ["4090"], "not": ["pc", "ordinateur", "laptop", "portable"], "min": 400, "max": 900 },
+    { "name": "RTX A6000",         "query": "rtx a6000",         "must": ["a6000"], "min": 600, "max": 1600 },
+    { "name": "RTX A5000",         "query": "rtx a5000",         "must": ["a5000"], "min": 300, "max": 800 },
+
+    { "name": "Samsung 990 Pro 4 To", "query": "samsung 990 pro 4tb", "must": ["990"], "min": 60, "max": 150 },
+    { "name": "RAM DDR5 ECC 64 Go",   "query": "ddr5 ecc 64gb",       "must": ["ecc"], "min": 50, "max": 140 }
+  ]
+}
